@@ -98,11 +98,12 @@ code {
 }
 
 .project-image-gallery {
-    float: right;
     margin-left: 10px;
     margin-right: 10px;
-    width: 480px;
-    height: 360px;
+}
+
+.slick-slide {
+    border-radius: 10px;
 }
 
 @media (max-width: 1150px) {
@@ -113,9 +114,9 @@ code {
         text-decoration-line: underline;
     }
     .project-image-gallery {
-        float: none;
-        width: 90%;
-        margin: auto;
+        margin: 60px auto;
+        width: 480px;
+        height: 360px;
     }
     .project-info {
         float: none;
@@ -138,6 +139,6 @@ code {
     }
     .project-info {
         float: left;
-        width: 600px;
+        max-width: 600px;
     }
 }
