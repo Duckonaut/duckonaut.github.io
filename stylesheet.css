@@ -1,0 +1,143 @@
+body {
+    background-color: #1e1e1e;
+    color: #cccccc;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+a,
+i,
+code {
+    font-family: 'Hack', monospace;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    display: inline;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+    transform-origin: center;
+    filter: brightness(80%)
+}
+
+.icon:hover {
+    filter: brightness(100%);
+}
+
+.icon-row {
+    width: 240px;
+    height: 36px;
+}
+
+.icon-container {
+    height: 36px;
+    float: right;
+}
+
+.icon-text {
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.main-info {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main-info-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    margin: 6px 6px 6px 6px;
+}
+
+.main-info-title {
+    font-size: 42pt;
+}
+
+.main-info-subtitle {
+    font-size: 26pt;
+}
+
+.projects-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.project {
+    display: table;
+    align-self: center;
+    clear: both;
+}
+
+.project-info {
+    font-size: 14pt;
+}
+
+.project-description {
+    font-size: 16pt;
+}
+
+.project-image-gallery {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 480px;
+    height: 360px;
+}
+
+@media (max-width: 1150px) {
+    .project-title {
+        text-align: center;
+        font-size: 36pt;
+        margin-bottom: 8px;
+        text-decoration-line: underline;
+    }
+    .project-image-gallery {
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+    .project-info {
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1150px) {
+    .project-title {
+        text-align: left;
+        font-size: 32pt;
+        margin-bottom: 8px;
+        text-decoration-line: underline;
+    }
+    .project-image-gallery {
+        float: right;
+        width: 480px;
+        height: 360px;
+    }
+    .project-info {
+        float: left;
+        width: 600px;
+    }
+}
