@@ -1,0 +1,157 @@
+.banner-container {
+    margin: auto;
+	margin-top: 20pt;
+	margin-bottom: 12pt;
+	width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.banner {
+    align-self: center;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.banner-item {
+	font-size: 18pt;
+	text-align: center;
+	float: none;
+	clear: left;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.banner-current {
+	font-weight: bold;
+}
+
+/* home */
+
+.banner-item-home:link {
+	color: #98C379;
+	text-decoration: none;
+}
+
+.banner-item-home:visited {
+	color: #98C379;
+	text-decoration: none;
+}
+
+.banner-item-home:hover {
+	color: #afd088;
+	text-decoration: underline;
+}
+
+.banner-item-home:active {
+	color: #afd088;
+	text-decoration: underline;
+}
+
+/* games */
+
+.banner-item-games:link {
+	color: #e06c75;
+	text-decoration: none;
+}
+
+.banner-item-games:visited {
+	color: #e06c75;
+	text-decoration: none;
+}
+
+.banner-item-games:hover {
+	color: #ef7a80;
+	text-decoration: underline;
+}
+
+.banner-item-games:active {
+	color: #ef7a90;
+	text-decoration: underline;
+}
+
+/* projects */ 
+
+.banner-item-projects:link {
+	color: #d19a66;
+	text-decoration: none;
+}
+
+.banner-item-projects:visited {
+	color: #d19a66;
+	text-decoration: none;
+}
+
+.banner-item-projects:hover {
+	color: #dfa873;
+	text-decoration: underline;
+}
+
+.banner-item-projects:active {
+	color: #dffa73;
+	text-decoration: underline;
+}
+
+/* github */ 
+
+.banner-item-github:link {
+	color: #c678dd;
+	text-decoration: none;
+}
+
+.banner-item-github:visited {
+	color: #c678dd;
+	text-decoration: none;
+}
+
+.banner-item-github:hover {
+	color: #d286eb;
+	text-decoration: underline;
+}
+
+.banner-item-github:active {
+	color: #d286eb;
+	text-decoration: underline;
+}
+
+/* twitter */ 
+
+.banner-item-twitter:link {
+	text-decoration: none;
+}
+
+.banner-item-twitter:visited {
+	text-decoration: none;
+}
+
+.banner-item-twitter:hover {
+	text-decoration: underline;
+}
+
+.banner-item-twitter:active {
+	text-decoration: underline;
+}
+
+/* contact */ 
+
+.banner-item-contact:link {
+	color: #e5c07b;
+	text-decoration: none;
+}
+
+.banner-item-contact:visited {
+	color: #e5c07b;
+	text-decoration: none;
+}
+
+.banner-item-contact:hover {
+	color: #f2ce89;
+	text-decoration: underline;
+}
+
+.banner-item-contact:active {
+	color: #f2ce89;
+	text-decoration: underline;
+}

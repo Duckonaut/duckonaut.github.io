@@ -1,6 +1,27 @@
 body {
-    background-color: #1e1e1e;
-    color: #cccccc;
+    background-color: #21252B;
+    color: #ABB2BF;
+	margin: 0 auto;
+}
+
+a:link {
+	color: #4fc1ff;
+}
+
+a:visited {
+	color: #4fc1ff;
+}
+
+a:hover {
+	color: #60d2ff;
+}
+
+a:active {
+	color: #66d8ff;
+}
+
+hr {
+	color: #98C379;
 }
 
 div,
@@ -28,11 +49,11 @@ code {
     height: 32px;
     transition: 0.3s;
     transform-origin: center;
-    filter: brightness(80%)
+    filter: brightness(70%)
 }
 
 .icon:hover {
-    filter: brightness(100%);
+    filter: brightness(80%);
 }
 
 .icon-row {
@@ -52,6 +73,7 @@ code {
     float: left;
     vertical-align: middle;
     margin-right: 8px;
+	color: #5c6370;
 }
 
 .main-info {
@@ -72,6 +94,12 @@ code {
 
 .main-info-subtitle {
     font-size: 26pt;
+	font-style: italic;
+	color: #5c6370;
+}
+
+.section {
+    font-size: 22pt;
 }
 
 .projects-container {
@@ -87,6 +115,7 @@ code {
     display: table;
     align-self: center;
     clear: both;
+	margin-bottom: 24pt;
 }
 
 .project-info {
@@ -98,7 +127,7 @@ code {
 }
 
 .project-image-gallery {
-    margin-left: 10px;
+    margin-left: 24px;
     margin-right: 10px;
 }
 
