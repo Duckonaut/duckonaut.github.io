@@ -116,6 +116,28 @@
 	text-decoration: underline;
 }
 
+/* itch */ 
+
+.banner-item-itch:link {
+	color: #e06c75;
+	text-decoration: none;
+}
+
+.banner-item-itch:visited {
+	color: #e06c75;
+	text-decoration: none;
+}
+
+.banner-item-itch:hover {
+	color: #ef7a80;
+	text-decoration: underline;
+}
+
+.banner-item-itch:active {
+	color: #ef7a90;
+	text-decoration: underline;
+}
+
 /* twitter */ 
 
 .banner-item-twitter:link {
