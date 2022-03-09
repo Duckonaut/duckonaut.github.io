@@ -1,0 +1,76 @@
+body {
+    background-color: #21252B;
+    color: #ABB2BF;
+	margin: 0 auto;
+}
+
+a:link {
+	color: #4fc1ff;
+}
+
+a:visited {
+	color: #4fc1ff;
+}
+
+a:hover {
+	color: #60d2ff;
+}
+
+a:active {
+	color: #66d8ff;
+}
+
+hr {
+	color: #98C379;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+a,
+i,
+code {
+    font-family: 'Hack', monospace;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.main-info {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main-info-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    margin: 6px 6px 6px 6px;
+}
+
+.main-info-title {
+    font-size: 42pt;
+}
+
+.main-info-subtitle {
+    font-size: 26pt;
+	font-style: italic;
+	color: #5c6370;
+}
+
+.quiet {
+	color: #5c6370;
+	font-style: italic;
+}
+
+.section {
+    font-size: 22pt;
+}
+
