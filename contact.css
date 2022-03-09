@@ -11,9 +11,12 @@
 }
 
 .contact {
-	margin-top: 12pt;
-	margin-bottom: 12pt;
+	margin-top: 24pt;
+	margin-bottom: 8pt;
 	font-size: 20pt;
 	color: #98C379;
 }
 
+.highlight {
+	color:  #e5c07b;
+}
