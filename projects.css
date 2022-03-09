@@ -68,14 +68,38 @@
 	float: none !important;
 	display: inline-block !important;
 	vertical-align: middle;
-	height: 100%;
 	min-height: 1px;
 }
 
 @media (max-width: 1150px) {
+	.project-title {
+        text-align: center;
+        font-size: 24pt;
+        margin-bottom: 8px;
+        text-decoration-line: underline;
+    }
+
+	.project-image-gallery {
+        margin: 60px auto;
+        width: 330px;
+        height: 220px;
+    }
+	
+	.project-info {
+        float: none;
+        width: 90%;
+        margin: auto;
+    }
+
+	.project-description {
+		font-size: 14pt;
+	}
+}
+
+@media (max-width: 1150px) and (min-width: 480px) {
     .project-title {
         text-align: center;
-        font-size: 36pt;
+        font-size: 24pt;
         margin-bottom: 8px;
         text-decoration-line: underline;
     }
@@ -84,11 +108,16 @@
         width: 480px;
         height: 360px;
     }
+
     .project-info {
         float: none;
         width: 90%;
         margin: auto;
     }
+
+	.project-description {
+		font-size: 14pt;
+	}
 }
 
 @media (min-width: 1150px) {
@@ -107,5 +136,9 @@
         float: left;
         max-width: 600px;
     }
+
+	.project-description {
+	   font-size: 16pt;
+	}
 }
 
