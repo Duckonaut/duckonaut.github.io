@@ -1,0 +1,67 @@
+.games-link:link {
+    color: #e06c75;
+    text-decoration: none;
+}
+
+.games-link:visited {
+    color: #e06c75;
+    text-decoration: none;
+}
+
+.games-link:hover {
+    color: #ef7a80;
+    text-decoration: underline;
+}
+
+.games-link:active {
+    color: #ef7a90;
+    text-decoration: underline;
+}
+
+.projects-link:link {
+    color: #d19a66;
+    text-decoration: none;
+}
+
+.projects-link:visited {
+    color: #d19a66;
+    text-decoration: none;
+}
+
+.projects-link:hover {
+    color: #dfa873;
+    text-decoration: underline;
+}
+
+.projects-link:active {
+    color: #dffa73;
+    text-decoration: underline;
+}
+
+.highlight {
+    color: #e5c07b;
+}
+
+@media (max-width: 480px) {
+    .about-paragraph {
+        margin: auto;
+        font-size: 16pt;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1150px) and (min-width: 480px) {
+    .about-paragraph {
+        margin: auto;
+        font-size: 18pt;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1150px) {
+    .about-paragraph {
+        margin: auto;
+        font-size: 18pt;
+        max-width: 60%;
+    }
+}
