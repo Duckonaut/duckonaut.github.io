@@ -156,6 +156,72 @@
 	text-decoration: underline;
 }
 
+/* mastodon */
+
+.banner-item-mastodon:link {
+	color: #6a4ae0;
+	text-decoration: none;
+}
+
+.banner-item-mastodon:visited {
+	color: #6a4ae0;
+	text-decoration: none;
+}
+
+.banner-item-mastodon:hover {
+	color: #7a55e8;
+	text-decoration: underline;
+}
+
+.banner-item-mastodon:active {
+	color: #7a55e8;
+	text-decoration: underline;
+}
+
+/* cohost */
+
+.banner-item-cohost:link {
+	color: #b63b73;
+	text-decoration: none;
+}
+
+.banner-item-cohost:visited {
+	color: #b63b73;
+	text-decoration: none;
+}
+
+.banner-item-cohost:hover {
+	color: #c54a7f;
+	text-decoration: underline;
+}
+
+.banner-item-cohost:active {
+	color: #c54a7f;
+	text-decoration: underline;
+}
+
+/* tumblr */
+
+.banner-item-tumblr:link {
+	color: #00b8ff;
+	text-decoration: none;
+}
+
+.banner-item-tumblr:visited {
+	color: #00b8ff;
+	text-decoration: none;
+}
+
+.banner-item-tumblr:hover {
+	color: #00c5ff;
+	text-decoration: underline;
+}
+
+.banner-item-tumblr:active {
+	color: #00c5ff;
+	text-decoration: underline;
+}
+
 /* contact */ 
 
 .banner-item-contact:link {
